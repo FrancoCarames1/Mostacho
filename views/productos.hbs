@@ -1,0 +1,12 @@
+<div>
+    <h3>Lista de animes:</h3>
+    {{#if mostrar}}
+    {{#each mostrar}}
+    <h5>Titulo: {{this.title}}</h5>
+    <p>Id: {{this.id}}</p>
+    <p>Personaje principal: {{this.mainCharacter}}</p>
+    {{/each}}
+    {{else}}
+    <h4>No se encontraron productos</h4>
+    {{/if}}
+</div>

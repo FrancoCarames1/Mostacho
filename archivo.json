@@ -1,0 +1,37 @@
+[
+  {
+    "title": "One Punch",
+    "mainCharacter": "Saitama",
+    "id": 1
+  },
+  {
+    "title": "One Piece",
+    "mainCharacter": "Luffy",
+    "id": 2
+  },
+  {
+    "title": "Jujutsu no Kaisen",
+    "mainCharacter": "Yuji",
+    "id": 3
+  },
+  {
+    "title": "Captain Tsubasa",
+    "mainCharacter": "Tsubasa",
+    "id": 4
+  },
+  {
+    "title": "Dragon Ball",
+    "mainCharacter": "Goku",
+    "id": 5
+  },
+  {
+    "title": "Boku No Hero Academia",
+    "mainCharacter": "Deku",
+    "id": 6
+  },
+  {
+    "title": "Sword Art Online",
+    "mainCharacter": "Kirito",
+    "id": 7
+  }
+]

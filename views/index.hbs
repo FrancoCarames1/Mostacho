@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafío Handlebar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Body principal</h1>
@@ -13,7 +14,8 @@
         document.getElementById('formulario').onsubmit = () =>{
             let title = document.getElementById('title').value;
             let mainCharacter = document.getElementById('mainCharacter').value;
-            alert('Nuevo anime agregado: \n Título: ' + title + '\n Personaje Principal: ' + mainCharacter);
+            let imgUrl = document.getElementById('imgUrl').value;
+            alert('Nuevo anime agregado: \n Título: ' + title + '\n Personaje Principal: ' + mainCharacter + '\n Url de imagen: ' +  imgUrl);
         }
     </script>
 </body>

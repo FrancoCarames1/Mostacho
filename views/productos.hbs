@@ -1,11 +1,23 @@
 <div>
+    <a href="/"><button>Agregar</button></a>
     <h3>Lista de animes:</h3>
     {{#if mostrar}}
-    {{#each mostrar}}
-    <h5>Titulo: {{this.title}}</h5>
-    <p>Id: {{this.id}}</p>
-    <p>Personaje principal: {{this.mainCharacter}}</p>
-    {{/each}}
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Titulo</th>
+            <th>Personaje principal</th>
+            <th>Imagen</th>
+        </tr>
+        {{#each mostrar}}
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.title}}</td>
+            <td>{{this.mainCharacter}}</td>
+            <td><img src={{this.imgUrl}} alt={{this.title}}></td>
+        </tr>
+        {{/each}}
+    </table>
     {{else}}
     <h4>No se encontraron productos</h4>
     {{/if}}
